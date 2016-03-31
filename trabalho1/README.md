@@ -71,5 +71,17 @@ Neste _benchmark_ foram gerados os seguintes gráficos.
 
 ![ffmpeg time](/trabalho1/ffmpeg_cachemisses.png "ffmpeg")
 
+Fazendo uma leitura dos gráficos, vemos um comportamento interessante. Neste programa de análise de imagem, que se utiliza de otimizações multithreading.
+
+Mesmo com o pior tempo, o computador de Luiz Sekijima, que possui um _Intel® Core™2 Duo CPU T6500_, um processador mais antigo, apresenta a menor quantidade de Page Fault e a terceira menor quantidade de cache misses. Isso pode ser devido a quantidade reduzida de cores ocasiona uma menor troca de cache e memória, porém mesmo com esses melhores resultados, vemos que uma máquina, a de João Fidélis, que possui um dos melhores e mais novos processadores, tem a terceira maior taxa de Page Fault e Cache Miss. Podemos considerar então que o a tecnologia empregada no processador compensa esses fatores.
+
+
+## Benchmark 3: convolução
+
+![convolucao_tempo](/trabalho1/convolucao_tempo.png "convolucao")
+
+![convolucao_disco](/trabalho1/convolucao__disco.png "convolucao")
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
