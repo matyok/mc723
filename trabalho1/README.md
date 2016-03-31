@@ -103,13 +103,25 @@ Fazendo uma primeira análise dos desempenhos de cada computador, podemos ver qu
 
 Sendo assim, estes dois serão descartados da análise detalahada.
 
-### Tempo
+### Segunda análise
 ![gnuplot_tempo](/trabalho1/gnuplot_tempo_detail.png "gnuplot")
 
-### Bus Cycles
 ![gnuplot_buscycles](/trabalho1/gnuplot_buscycles_detail.png "gnuplot")
 
-### Cpu Clock
 ![gnuplot_tempo_cpuclock](/trabalho1/gnuplot_tempo_cpuclock_detail.png "gnuplot")
+
+Com os gráficos replotados a partir de apenas os dados dos computadores com desempenho mais notáveis, podemos fazer uma comparação e análise mais detalhada.
+
+Vemos um comportamento bastante condizente entre as os gráficos, a ordem das máquinas são sempre as mesmas, assim como esperado. Um comportamento interessante são os quatro computadores com melhor desempenho. Apesar de terem processadores de diferentes patamares(_i3, i5_ e _i7_), tiveram tempos similares e com _Bus Cycles_ bem mais abaixo das outras máquinas.
+
+##Benchmark 5: ordenação
+
+![ordenacao_bubble](/trabalho1/ordenacao_bubble.png "ordenacao")
+
+![ordenacao_quick](/trabalho1/ordenacao_quick.png "ordenacao")
+
+![ordenacao_insertion](/trabalho1/ordenacao_insertion.png "ordenacao")
+
+![ordenacao_selection](/trabalho1/ordenacao_selection.png "ordenacao")
 
 > Written with [StackEdit](https://stackedit.io/).
