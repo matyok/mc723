@@ -92,11 +92,11 @@ Os ultimos dois piores tempos, o do Victor Souza pode-se atribuir tanto ao desem
 
 ## Benchmark 4: gnuplot
 
-![gnuplot_tempo](/trabalho1/gnuplot_tempo.png "gnuplot)
+![gnuplot_tempo](/trabalho1/gnuplot_tempo.png "gnuplot")
 
-![gnuplot_buscycles](/trabalho1/gnuplot_buscycles.png "gnuplot)
+![gnuplot_buscycles](/trabalho1/gnuplot_buscycles.png "gnuplot")
 
-![gnuplot_tempo_cpuclock](/trabalho1/gnuplot_tempo_cpuclock.png "gnuplot)
+![gnuplot_tempo_cpuclock](/trabalho1/gnuplot_tempo_cpuclock.png "gnuplot")
 
 
 
