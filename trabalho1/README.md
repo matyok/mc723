@@ -82,6 +82,22 @@ Mesmo com o pior tempo, o computador de Luiz Sekijima, que possui um _Intel® Co
 
 ![convolucao_disco](/trabalho1/convolucao__disco.png "convolucao")
 
+Aqui podemos fazer uma análise levando em consideração que o desempenho do processador afeta diretamente o tempo médio de execução do programa.
+
+As máquinas com os sete melhores tempos, possuem processadores similares. Mesmo assim, um comportamento interessante do da máquina debios e do Titouan Thibaud tem processadores similares, com discos similares e tempos de execução bastante diferentes. Algum fator na máquina debios pode ter afetado seu desempenho, seja a memória ou até processos que estivessem rodando em paralelo durante a execução.
+
+Dois outros comportamentos interessantes, são as máquinas de Gustavo Basso e Yugo Kuno, que apresentaram um desempenho de disco menor, mas o tempo de execução foram razoáveis. Provavelmente o desempenho de disco não seja tão essencial para este programa.
+
+Os ultimos dois piores tempos, o do Victor Souza pode-se atribuir tanto ao desempenho de disco quanto ao processador. Já Renan Castro possuia uma máquina virtual, o que prejudicou o desempenho.
+
+## Benchmark 4: gnuplot
+
+![gnuplot_tempo](/trabalho1/gnuplot_tempo.png "gnuplot)
+
+![gnuplot_buscycles](/trabalho1/gnuplot_buscycles.png "gnuplot)
+
+![gnuplot_tempo_cpuclock](/trabalho1/gnuplot_tempo_cpuclock.png "gnuplot)
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
