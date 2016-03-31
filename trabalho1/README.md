@@ -136,4 +136,12 @@ Com algoritmos de ordenação, vemos as médias de tempos diretamente ligados a 
 
 ![Benchmark6-inst](/trabalho1/Benchmark6-inst.png "imagemagick")
 
+Podemos perceber que os tempod de execução foram bem variados nas próprias máquinas, não seguindo um padrão perceptível.
+
+Já as medidas de CPU parecem seguir um padrão, onde as barras de execução são parecidas. Já os outros ultimos gráficos são bastante padronizados, tendo uma pequena variação.
+
+##Benchmark 7: tcc
+
+![Benchmark7](/trabalho1/Benchmark7.png "tcc")
+
 > Written with [StackEdit](https://stackedit.io/).
