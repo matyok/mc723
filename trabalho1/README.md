@@ -124,4 +124,16 @@ Vemos um comportamento bastante condizente entre as os gráficos, a ordem das m�
 
 ![ordenacao_selection](/trabalho1/ordenacao_selection.png "ordenacao")
 
+Com algoritmos de ordenação, vemos as médias de tempos diretamente ligados a capacidade de cada computador. A máquina de Pedro Vasconcellos fica com o pior desempenho, rodando em um Raspberry Pi, seguido de Felipe Emos com um processador _Intel Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge_, seguido dos outros com processadores de maior capacidade.
+
+##Benchmark 6: imagemagick
+
+![Benchmark6-time](/trabalho1/Benchmark6-time.png "imagemagick")
+
+![Benchmark6-cpus](/trabalho1/Benchmark6-cpus.png "imagemagick")
+
+![Benchmark6-cycles](/trabalho1/Benchmark6-cycles.png "imagemagick")
+
+![Benchmark6-inst](/trabalho1/Benchmark6-inst.png "imagemagick")
+
 > Written with [StackEdit](https://stackedit.io/).
