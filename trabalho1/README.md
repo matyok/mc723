@@ -150,4 +150,20 @@ Aqui vemos um comportamento completamente esperado, onde a ordem de desempenho s
 
 ![Benchmark8](/trabalho1/Benchmark8.png "FFTW")
 
+Analisando o gráfico vemos um destaque para a máquina do Matheus Ruivo, com um tempo do _DFT1D_ muito diferente dos demais. Apesar de seu tempo muito maior, a máquina apresenta um processador da família _Intel® Core™ i3_. Pode ser que tenha ocorrido algum erro ou que outros programas poderiam estar rodando em paralelo.
+
+###DFT1D
+Como o programa processa dados matemáticos, neste caso onde não há _IO_, vemos tempos diretamente proporcionais a capacidade dos processadores. Os 5 primeiros tempos são de processadores da família _Intel® Core™ i7_ com tempos similares, seguidos da máquina do Bruno Hori com um processador _Intel® Core™ 2 Quad_, com capacidade menor que os da família _Intel® Core™ i7_, então temos um comportamento esperado.
+
+###DFT1D-IO
+Aqui, temos um processamento dependente de _IO_, provavelmente de disco. Temos informações de disco apenas de Matheus Ruivo e Matheus Figueiredo, que possuem _HDDs_ com mesma velocidade de rotação, 5400RPM, e vendo o gráfico, vemos que possuem desempenho similares.
+
+Comparando estes desempenhos com outros(sem informações sobre capacidade do disco), vemos que máquinas com mesma capacidade de processador tem tempos bastante diferentes, podemos ver que provavelmente estas máquinas possuem _HDDs_ com rotações melhores ou melhores capacidades.
+
+##Conclusão
+
+Vemos que em muitos dos experimentos dependem de processamento e, na maioria das vezes temos o resultado esperado onde o processador com a mais nova tecnologia se sai melhor. Porém vemos que nem sempre isso é verdade, salvo alguns caso onde pode-se especular que ocorreu um erro na execução do programa e os tempos e medidas saem bastante da curva.
+
+Apesar disso, estas análises são apenas superficiais, pois faltam dados de como foram executados os programas em termos de ambiente da máquina. Variáveis como: outros programas executando em paralelo, processos de _IO_, rede, etc, podem influenciar muito na execução de certos programas.
+
 > Written with [StackEdit](https://stackedit.io/).
