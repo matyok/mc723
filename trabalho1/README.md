@@ -144,4 +144,10 @@ Já as medidas de CPU parecem seguir um padrão, onde as barras de execução s�
 
 ![Benchmark7](/trabalho1/Benchmark7.png "tcc")
 
+Aqui vemos um comportamento completamente esperado, onde a ordem de desempenho segue exatamente a capacidade do processador de cada máquina. Os dois primeiros se destacam com um processador _Intel(R) Core(TM) i7_ da quarta geração, seguido por processadores da mesma família, da terceira. A partir da máquina do Luiz Sekijima, vemos processadores da família _Intel® Core™2_. Aqui podemos ver como a tecnologia dos processadores influenciam no processamento.
+
+##Benchmark 8: FFTW
+
+![Benchmark8](/trabalho1/Benchmark8.png "FFTW")
+
 > Written with [StackEdit](https://stackedit.io/).
