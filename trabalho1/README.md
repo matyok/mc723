@@ -98,6 +98,18 @@ Os ultimos dois piores tempos, o do Victor Souza pode-se atribuir tanto ao desem
 
 ![gnuplot_tempo_cpuclock](/trabalho1/gnuplot_tempo_cpuclock.png "gnuplot")
 
+### Análise primária
+Fazendo uma primeira análise dos desempenhos de cada computador, podemos ver que o tempo de execução está diretamente ligado aos outros dois gráficos de _BusCycles_ e _CPU Clock_. Vemos que a máquina de Pedro Vasconcelos, um Raspberry Pi, se destaca pelo desempenho muito abaixo das outras máquinas. Também vemos a máquina de Pedro Grijó com desempenhos fora do comum, rápidos demais. Este provavelmente pode ter ocorrido erros ao executar o programa.
 
+Sendo assim, estes dois serão descartados da análise detalahada.
+
+### Tempo
+![gnuplot_tempo](/trabalho1/gnuplot_tempo_detail.png "gnuplot")
+
+### Bus Cycles
+![gnuplot_buscycles](/trabalho1/gnuplot_buscycles_detail.png "gnuplot")
+
+### Cpu Clock
+![gnuplot_tempo_cpuclock](/trabalho1/gnuplot_tempo_cpuclock_detail.png "gnuplot")
 
 > Written with [StackEdit](https://stackedit.io/).
